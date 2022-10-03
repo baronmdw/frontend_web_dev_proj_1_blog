@@ -1,0 +1,13 @@
+.nav-link{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.navigation-bar{
+    padding: 5px;
+}
