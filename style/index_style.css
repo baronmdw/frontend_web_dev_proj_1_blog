@@ -27,6 +27,13 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    grid-gap: 20px;
+}
+
+.content{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .box{
@@ -67,5 +74,10 @@
 
     .navigate-posts{
         flex-direction: column;
+    }
+
+    .content{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repet(3, 1fr);
     }
 }

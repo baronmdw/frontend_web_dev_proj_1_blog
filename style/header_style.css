@@ -1,5 +1,17 @@
-#header{
+.header{
     background-color: #fff;
-    border-radius: 10px;
+    box-shadow: 0 7px 5px #0005;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+#logo-field{
+    background-image: url("../templates/images/great_minds_logo.png");
+    height: 50px;
+    width: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
