@@ -4,3 +4,16 @@ body{
     padding: 0;
     width: 100%;
 }
+
+.element-shadow{
+    box-shadow: 3px 7px 5px #0005;
+}
+
+button{
+    background-color: rgba(247, 58, 0, 0.8);
+    color: #ffe;
+    height:40px;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+}

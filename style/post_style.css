@@ -60,7 +60,7 @@
     .main-grid{
         display: grid;
         grid-template-rows: 75px 500px 75px;
-        grid-template-columns: 10% 90%;
+        grid-template-columns: 1fr 9fr;
         grid-gap: 10px;
         grid-template-areas:
             "hd hd"
