@@ -36,9 +36,9 @@
     grid-template-rows: repeat(5, 1fr);
 }
 
-.box{
-    /* border: 2px solid black; */
-}
+/* .box{
+    border: 2px solid black;
+} */
 
 #header{
     grid-area: hd;
@@ -96,7 +96,7 @@
     .main-grid{
         display: grid;
         grid-template-rows: 1fr 10fr 1fr;
-        grid-template-columns: 1fr 9fr;
+        grid-template-columns: 1fr 10fr;
         grid-gap: 10px;
         grid-template-areas:
             "hd hd"

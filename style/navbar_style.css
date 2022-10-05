@@ -7,8 +7,37 @@
     justify-content: center;
     margin: 5px;
     background-color: #ffe;
+    background-size: contain;
 }
 
 .navigation-bar{
     padding: 5px;
+}
+
+.home-link{
+    background-image: url("../templates/images/home.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center center;
+}
+
+.latest-link{
+    background-image: url("../templates/images/latest.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center center;
+}
+
+.favorite-link{
+    background-image: url("../templates/images/favorite.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center center;
+}
+
+.subscribe-button{
+    background-image: url("../templates/images/subscribe.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center center;
 }

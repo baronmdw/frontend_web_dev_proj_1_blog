@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../style/index_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main-grid">
@@ -11,10 +14,11 @@
                 <h1 class="logo-label">Great Minds Think Alike, Right?</h1>
             </div>
             <div id="navbar" class="box navigation-bar">
-                <a href="./index.html" class="nav-link box element-shadow">Home</a>
+                <a href="./index.html" class="nav-link box element-shadow home-link" title="Home"></a>
                 <div class="navigate-posts box">
-                    <a href="./einstein.html" class="nav-link box element-shadow">Latest</a>
-                    <a href="./curie.html" class="nav-link box element-shadow">Popular</a>
+                    <button class="nav-link box element-shadow subscribe-button" title="Subscribe"></button>
+                    <a href="./einstein.html" class="nav-link box element-shadow latest-link" title="Latest Post"></a>
+                    <a href="./curie.html" class="nav-link box element-shadow favorite-link" title="Most liked Post"></a>
                 </div>
             </div>
             <div id="content" class="box content">
@@ -36,8 +40,8 @@
                         </blockquote>
                     </div>
                     <div class="navigation box">
-                        <button>Like</button>
-                        <button>Go To Post</button>
+                        <button onclick="window.location.href='./einstein.html'" class="element-shadow">Go To Post</button>
+                        <button class="element-shadow">Like</button>
                     </div>
                 </div>
                 <div class="box genius card element-shadow" id="planck">
@@ -60,8 +64,8 @@
                         </blockquote>
                     </div>
                     <div class="navigation box">
-                        <button>Like</button>
-                        <button>Go To Post</button>
+                        <button onclick="window.location.href='./planck.html'" class="element-shadow">Go To Post</button>
+                        <button class="element-shadow">Like</button>
                     </div>
                 </div>
                 <div class="box genius card element-shadow" id="tesla">
@@ -84,8 +88,8 @@
                         </blockquote>
                     </div>
                     <div class="navigation box">
-                        <button>Like</button>
-                        <button>Go To Post</button>
+                        <button onclick="window.location.href='./tesla.html'" class="element-shadow">Go To Post</button>
+                        <button class="element-shadow">Like</button>
                     </div>
                 </div>
                 <div class="box genius card element-shadow" id="curie">
@@ -108,8 +112,8 @@
                         </blockquote>
                     </div>
                     <div class="navigation box">
-                        <button>Like</button>
-                        <button>Go To Post</button>
+                        <button onclick="window.location.href='./curie.html'" class="element-shadow">Go To Post</button>
+                        <button class="element-shadow">Like</button>
                     </div>
                 </div>
                 <div class="box genius card element-shadow" id="obama">
@@ -132,8 +136,8 @@
                         </blockquote>
                     </div>
                     <div class="navigation box">
-                        <button>Like</button>
-                        <button>Go To Post</button>
+                        <button onclick="window.location.href='./obama.html'" class="element-shadow">Go To Post</button>
+                        <button class="element-shadow">Like</button>
                     </div>
                 </div>
             </div>

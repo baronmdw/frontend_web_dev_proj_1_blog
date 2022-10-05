@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../style/post_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-grid">
@@ -11,14 +15,34 @@
             <h1 class="logo-label">Great Minds Think Alike, Right?</h1>
         </div>
         <div id="navbar" class="box navigation-bar">
-            <a href="./index.html" class="nav-link box element-shadow">Home</a>
+            <a href="./index.html" class="nav-link box element-shadow home-link" title="Home"></a>
             <div class="navigate-posts box">
-                <a href="./einstein.html" class="nav-link box element-shadow">Latest</a>
-                <a href="./curie.html" class="nav-link box element-shadow">Popular</a>
+                <button class="nav-link box element-shadow subscribe-button" title="Subscribe"></button>
+                <a href="./einstein.html" class="nav-link box element-shadow latest-link" title="Latest Post"></a>
+                <a href="./curie.html" class="nav-link box element-shadow favorite-link" title="Most liked Post"></a>
             </div>
         </div>
-        <div id="content" class="box content">
-            Content Einstein
+        <div id="content" class="box post-content card element-shadow">
+            <div class="box post-image">
+                <img src="./images/Albert_Einstein.jpg" alt="Albert Einstein" class="post-image element-shadow">
+            </div>
+            <div class="box post-text">
+                <h2 class="genius-name">Albert Einstein</h2>
+                <h3>General Information</h3>
+                <p>
+                    Albert Einstein <em>(14 March 1879 – 18 April 1955)</em> was a German-born theoretical physicist, widely acknowledged to be one of the <strong>greatest and most influential</strong> physicists of all time. Einstein is best known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics. 
+                    Relativity and quantum mechanics are together the two pillars of modern physics.
+                    His mass–energy equivalence formula <strong>E = mc2</strong>, which arises from relativity theory, has been dubbed <em>"the world's most famous equation"</em>. 
+                    His work is also known for its influence on the philosophy of science.
+                    He received the 1921 Nobel Prize in Physics <em>"for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect"</em>, a pivotal step in the development of quantum theory. 
+                    His intellectual achievements and originality resulted in "Einstein" becoming synonymous with <strong>"genius"</strong>.
+                </p>
+            </div>
+            <div class="box post-footer">
+                <button class="element-shadow">Go To Wiki</button>
+                <button class="element-shadow">Share</button>
+                <button class="element-shadow">Like</button>
+            </div>
         </div>
         <div id="footer" class="box footer">
             <p>Created my design at LogoMakr.com</p>

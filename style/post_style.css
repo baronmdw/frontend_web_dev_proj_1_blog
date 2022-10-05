@@ -6,7 +6,7 @@
 
 .main-grid{
     display: grid;
-    grid-template-rows: 75px 75px 1fr 75px;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
     grid-gap: 10px;
     height: 1vh;
     grid-template-areas:
@@ -30,15 +30,22 @@
     grid-gap: 20px;
 }
 
-.content{
+.post-content{
     display: grid;
     grid-gap: 10px;
     grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+        "img cont"
+        "img cont"
+        "img cont"
+        "img cont"
+        "img ft"
 }
 
-.box{
+/* .box{
     border: 2px solid black;
-}
+} */
 
 #header{
     grid-area: hd;
@@ -56,11 +63,35 @@
     grid-area: ft;
 }
 
+.post-image{
+    grid-area: img;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-text{
+    grid-area: cont;
+}
+
+.post-content > p{
+    width: 90%;
+}
+
+.post-footer{
+    grid-area: ft;
+    display: flex;
+    grid-gap: 20px;
+    padding: 10px;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+}
+
 @media (min-width:1100px) {
     .main-grid{
         display: grid;
-        grid-template-rows: 75px 500px 75px;
-        grid-template-columns: 1fr 9fr;
+        grid-template-rows: 1fr 10fr 1fr;
+        grid-template-columns: 1fr 10fr;
         grid-gap: 10px;
         grid-template-areas:
             "hd hd"

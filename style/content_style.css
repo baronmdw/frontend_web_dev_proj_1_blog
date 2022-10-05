@@ -3,12 +3,17 @@
 }
 
 .image{
-    border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image > img{
-    max-width: 100%;
+    max-width: 90%;
+    max-height: 180px;
+    border-radius: 50%;
+
 }
 
 .card{
@@ -22,4 +27,11 @@
 
 .genius-name{
     color: rgba(247, 58, 0, 0.9);
+    text-transform: uppercase;
+}
+
+.post-image{
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 95%;
 }

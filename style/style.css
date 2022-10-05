@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .element-shadow{
@@ -16,4 +17,6 @@ button{
     width: 100px;
     border-radius: 2px;
     border: none;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.1em;
 }
