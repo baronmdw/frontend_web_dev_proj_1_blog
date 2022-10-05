@@ -13,7 +13,6 @@
     max-width: 90%;
     max-height: 180px;
     border-radius: 50%;
-
 }
 
 .card{
@@ -34,4 +33,8 @@
     margin: 5px;
     border-radius: 5px;
     max-width: 95%;
+}
+
+.post-image > figure > figcaption{
+    margin: 5px;
 }
